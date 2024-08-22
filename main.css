@@ -1,0 +1,82 @@
+/*GENERAL*/
+@font-face{
+    font-family:specialElite;
+    src:url(Font/specialElite/SpecialElite-Regular.ttf);
+}
+
+
+body{
+    color:#FFFFFF;
+    background-color:#000000;
+    font-family:specialElite, serif;
+}
+
+
+/*HEADER*/
+
+#header{
+    background-color:#1F1F1F;
+}
+
+#headerCatchphrase, span, p, h, a, .text{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#dropdown{
+    background-color:#000000;
+    color:white;
+}
+
+#dropdown a:hover{
+    background-color:#1F1F1F;
+    color:#FFFFFF;
+}
+
+#navButtonDropdown{
+    margin:0px;
+    padding:0px;
+}
+
+#navButton{
+    margin:1px;
+    padding:5px;
+}
+
+#navActive{
+    background-color:pink;
+    color:#000000;
+    margin:5px;
+    padding:1px;
+    
+}
+
+.custom-button{
+  border:none;
+  color: #FFFFFF;
+}
+
+#navBar button{
+    padding:4px;
+}
+
+/*FOOTER*/
+#footerText{
+    color:#D1D1D1;
+}
+
+#footerText2, #footerLink{
+    color:#919191;
+    padding:0px;
+    margin:0px;
+}
+
+#socialLogo{
+    width:30px;
+    height:relative;
+    padding-bottom:10px;
+    opacity:0.5;
+}
+
+
+
