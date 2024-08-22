@@ -60,6 +60,10 @@ body{
     padding:4px;
 }
 
+.navbar-toggler-icon{
+    color:white;
+    
+}
 /*FOOTER*/
 #footerText{
     color:#D1D1D1;
@@ -78,5 +82,9 @@ body{
     opacity:0.5;
 }
 
+ul{
+    padding:0px;
+    margin:0px;
+}
 
 
