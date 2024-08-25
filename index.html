@@ -12,38 +12,33 @@
         
 <!-- || HEADER -->
         
-        <div id="header" class="container-fluid sticky-top">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-                <div class="d-block d-sm-inline container-fluid justify-content-center mb-3">
-                    <div class="row justify-content-center">
-    <!-- - LOGO -->
-                    <div class="col col-auto container-fluid justify-content-center align-items-center">
-                        <div class="row justify-content-center">
-                        <div class="col col-auto">
-                        <a href="index.html" class="justify-content-center align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                            <image src="Images/Logo.png" class="bi me-2" width="60" height="60"></image>
-                            </a>
-                            </div>
-                            <div class="col col-auto align-bottom my-auto">
-                            <span id="name" class="fs-2">aunty betty's stonehaven</span>
-                            </div>
-                        </div>
-                    </div>
-    <!-- - NAV BAR -->
-                    <div class="col col-auto">
-                        <nav id="navBar" class="navbar navbar-expand-md justify-content-center navbar-dark">
-                        
-                            <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                                <i style="color:#FFFFFF;" class="navbar-toggler-icon"></i>
-                            </button>
-                              <div class="container-fluid">
-                                 <div class="collapse navbar-collapse justify-content-center"           id="navbarsExample04">
-                            <ul class="navbar-nav mb-2 mb-md-0 justify-content-center align-left">
+        <div id="header" class="p-1 sticky-top container-fluid justify-content-center align-items-center">
+            <!-- - LOGO AND NAME -->
+            <div class="pt-2 row justify-content-center">
+                <div class="col col-auto">
+                    <a href="index.html" class="justify-content-center align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                        <image src="Images/Logo.png" class="bi me-2" width="60" height="60"></image>
+                    </a>
+                </div>
+                <div class="col col-auto align-bottom my-auto justify-content-center">
+                    <span id="name" class="fs-2">aunty betty's stonehaven</span>
+                </div>
+            </div>
+            
+            <!-- - NAVBAR -->
+            <div class="col col-auto align-items-center">
+                <nav id="navBar" class="navbar navbar-expand-md align-items-center justify-content-center navbar-dark">
+                    <button class="navbar-toggler justify-content-center mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <i style="color:#FFFFFF;" class="navbar-toggler-icon"></i>
+                    </button>
+                    <div class="container-fluid">
+                        <div class="row collapse navbar-collapse justify-content-center"           id="navbarsExample04">
+                            <ul class="col-6 col-md-auto navbar-nav justify-content-center align-left">
                                 <li id="navActive" class="nav-item btn align-middle">
                                     <a style="color:#000000;" class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <div class="vr d-none d-md-inline"></div>
-                                <li id="navButton" class="nav-item dropdown btn-group">
+                                <li id=" navButton" class="nav-item dropdown btn-group">
                                     <button type="button" class="text btn"><a href="">About Us</a></button>
                                     <button type="button" class="btn custom-button" data-bs-toggle="dropdown">
                                         <span class="visually-hidden">Toggle Dropdown</span>
@@ -109,18 +104,148 @@
                                 </li>
                             </ul>
                         </div>
-                             </div>
-                    </nav>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- - DESCRIPTION -->
+                <div class="container text-center pt-1">
+                    <h4 id="headerCatchphrase">ice cream · sweets · drinks · desserts · cakes · events · party favours · gifts</h4>
+                </div>
+        </div>
+    
+<!-- || MAIN CONTENT -->
+        
+          <div class="container-fluid">
+    <!-- - INTRODUCTION -->
+            <div id="infoBlock" class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4" src="Images/Logo.png" alt="" width="150" height="auto">
+                <h1 class="display-5 fw-bold">WHO WE ARE</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4"> Nestled alongside the beautiful shores of Stonehaven, we strive to serve only the best sweet treats not just in Stonehaven, but in Aberdeenshire. 
+                </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button style="border-color:#FFA6E0;" id="button" type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="">Hear Our Story</a></button>
                     </div>
                 </div>
+            </div>
+                <br><br>
+            
+            
+    <!-- - CREATIVE SERVICES-->
+        <div id="infoBlock" class="container-fluid col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">OUR ICE CREAMS</h1>
+                     <p class="lead">Our main attraction! Our world renowned ice cream is not to be missed! Provided by none other than Stew 'n' Drew's</p>
+                    <div id="listContainer" class="container">
+                        <ul>
+                            <li id="list1">BULLET</li>
+                            <li id="list2">BULLET</li>
+                            <li id="list3">BULLET</li>
+                            <li id="list4">BULLET</li>
+                            <li id="list5">BULLET</li>
+                            <li id="list6">BULLET</li>
+                            <li id="list1">BULLET</li>
+                        </ul>    
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-sm-center">
+                        <button style="border-color:#55C3EA;" id="button" type="button" class="btn btn-primary btn-lg px-4 gap-3"><a id="button" href="">CTA BUTTON</a></button>
+                    </div>
                 </div>
-    <!-- - CATCHPHRASE -->
-                <div class="container text-center pt-1">
-                    <h5 id="headerCatchphrase">Purveyors of All Things Sweet</h5>
+                <div class="col-10 col-sm-8 col-lg-6 justify-content-sm-center">
+                    <img src="" class="d-block mx-lg-auto img-fluid" alt="IMAGE" width="700" height="500" loading="lazy">
                 </div>
-            </header>
+            </div>
         </div>
-        
+            <br><br>
+            
+    <!-- - ENTERTAINMENT TEAM-->
+                <div id="infoBlock" class="container-fluid col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                        <div class="col-10 col-sm-8 col-lg-6 justify-content-sm-center">
+                            <img src="" class="d-block mx-lg-auto img-fluid" alt="IMAGE" width="700" height="500" loading="lazy">
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="display-5 fw-bold lh-1 mb-3">TITLE</h1>
+                             <p class="lead">LORUM IPSET</p>
+                            <div id="listContainer" class="container">
+                                <ul>
+                                    <li id="list1">BULLET</li>
+                                    <li id="list2">BULLET</li>
+                                    <li id="list3">BULLET</li>
+                                    <li id="list4">BULLET</li>
+                                    <li id="list5">BULLET</li>
+                                    <li id="list6">BULLET</li>
+                                </ul>    
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-sm-center">
+                                <button style="border-color:#65B32E;" id="button" type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="">Meet Our Team</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <br><br>
+            
+    <!-- - CTA CONTACT -->
+            <div id="infoBlock" class="container-fluid col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-6 text-center text-lg-start">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">AND... <br>WHO ARE <span id="">YOU</span>?</h1>
+                        <p class="col-lg-10 fs-4">We would <Span id="">love</Span> to answer all of your queries and questions to the best of our ability! Contact us using our form or come and chat on our socials:</p>
+                        <div class="container-fluid justify-content-sm-center text-center">
+                            <a href="https://www.facebook.com/eventsizeltd"><img class="img-fluid" id="socialLogo2" src="Images/facebookLogo.png"></a>
+                            <a href="https://www.instagram.com/eventsizeltd"><img class="img-fluid" id="socialLogo2" src="Images/instagramLogo.png"></a>
+                            <a href="mailto:eventsize@hotmail.com"><img class="img-fluid" id="socialLogo2" src="Images/emailLogo.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 mx-auto col-lg-6">
+                        <form action="formEmail.php" method="post" id="form" class="p-4 p-md-5 border rounded-3">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <label>Name*</label>
+                                        <input id="formInput" type="text" class="form-control" placeholder="Enter your name" name="name" aria-label="First Name" required>
+                                    </div>
+                                    <div class="col">
+                                     <label>Email*</label>
+                                        <input id="formInput" type="text" class="form-control" placeholder="Enter your email" name="email" aria-label="Email Address" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <label>Phone Number</label>
+                                        <input id="formInput" type="tel" class="form-control" placeholder="Enter your phone number" name="pNumber" aria-label="Phone Number">
+                                    </div>
+                                    <div class="col">
+                                        <label>Address</label>
+                                        <input id="formInput" type="text" class="form-control" placeholder="Enter your address" name="address" aria-label="Address">
+                                 </div>
+                             </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                     <label>Subject*</label>
+                                     <input id="formInput" type="text" class="form-control" placeholder="Enter your subject" name="subject" aria-label="Subject" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col">
+                                        <label class="form-label">Message</label>
+                                        <textarea id="formInput" class="form-control" id="exampleFormControlTextarea1" name="message" rows="4" placeholder="Please enter your message here"></textarea>
+                                    </div><br><br><br>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col text-center">
+                                        <button style="border-color:#F3D229;" id="button" type="submit" class="btn btn-primary btn-lg mt-3 px-4 text-center" name="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                <br><br>
+        </div>
         
 <!-- || FOOTER -->
         <div class="container">
@@ -150,5 +275,6 @@
                     
     <!-- - BOOTSTRAP JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="offcanvas.js"></script>
     </body>
 </html>

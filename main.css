@@ -11,6 +11,11 @@ body{
     font-family:specialElite, serif;
 }
 
+#button{
+    color:  ;
+    background:transparent;
+}
+
 
 /*HEADER*/
 
@@ -44,7 +49,7 @@ body{
 }
 
 #navActive{
-    background-color:pink;
+    background-color:#FFA6E0;
     color:#000000;
     margin:5px;
     padding:1px;
